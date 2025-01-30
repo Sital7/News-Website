@@ -57,7 +57,7 @@ const Newsapp = () => {
             value={search}
             onChange={handleInput}
           />
-          <button onClick={getData}>Search</button>
+          <button className="btn" onClick={getData}>Search</button>
         </div>
         </header>
       </nav>
