@@ -33,7 +33,6 @@ nav {
   }
   .App-logo {
     height: 40vmin;
-    /* pointer-events: none; */
     border-radius: 90%;
     height: 80px;
     
@@ -119,8 +118,8 @@ nav {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 50px; /* Increased padding for larger buttons */
-    font-size: 18px; /* Increased font size */
+    padding: 10px 50px;
+    font-size: 18px;
     border-radius: 25px; 
     cursor: pointer;
     transition: background-color 0.1s;
@@ -130,7 +129,6 @@ nav {
     background-color: #0056b3;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .categoryButton {
       padding: 10px 16px; 
@@ -139,33 +137,3 @@ nav {
     }
   }
   
-  
-  /* .categoryButton {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.1s;
-  }
-  .categoryButton:hover {
-    background-color: #0056b3;
-  }
-  
- 
-  @media (max-width: 768px) {
-    .cardContainer {
-      gap: 15px;
-    }
-  
-    .card {
-      width: 200px;
-    }
-  
-    .categoryButton {
-      padding: 6px 12px;
-      font-size: 14px;
-    }
-  }
-   */
